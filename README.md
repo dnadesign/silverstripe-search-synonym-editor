@@ -1,1 +1,1 @@
-# silverstripe-search-utilities
+# Silverstripe Search Utilities
