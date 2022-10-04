@@ -20,7 +20,7 @@ Include the following in your composer.json and run composer update:
 
 ```bash
 "require": {
-    dnadesign/silverstripe-search-synonym-editor
+    "dnadesign/silverstripe-search-synonym-editor": "dev-main"
 }
 ```
 
