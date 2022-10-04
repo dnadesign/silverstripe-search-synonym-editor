@@ -61,6 +61,15 @@ class Synonym extends DataObject
     }
 
     /**
+     * Ensure the that the synonyms.txt file is updated after dev/build (for deployments etc)
+     */
+    public function onAfterBuild()
+    {
+        $this->addUpdateSynonymsJobToQueue();
+        $this->extend('onAfterBuild');
+    }
+
+    /**
      * Adds the UpdateSynonymsTxtFileJob to the queue
      *
      * @return void
