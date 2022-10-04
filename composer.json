@@ -1,0 +1,8 @@
+{
+    "name": "dnadesign/silverstripe-search-utilities",
+    "description": "Utilities to improve silverstripe search experience.",
+    "license": "BSD-3-Clause",
+    "extra": {
+        "installer-name": "silverstripe-alert-banners"
+    }
+}
