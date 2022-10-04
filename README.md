@@ -1,1 +1,1 @@
-# Silverstripe Search Utilities
+# Silverstripe Search Synonym Editor

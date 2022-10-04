@@ -1,8 +1,12 @@
 {
-    "name": "dnadesign/silverstripe-search-utilities",
-    "description": "Utilities to improve silverstripe search experience.",
+    "name": "dnadesign/silverstripe-search-synonym-editor",
+    "description": "Model Admin to allow editing of Solr Search Synonyms",
     "license": "BSD-3-Clause",
+    "require": {
+        "php": "^8.1",
+        "silverstripe/recipe-solr-search": "^2.11"
+    },
     "extra": {
-        "installer-name": "silverstripe-alert-banners"
+        "installer-name": "silverstripe-search-synonym-editor"
     }
 }
