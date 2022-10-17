@@ -25,6 +25,7 @@ class Synonym extends DataObject
     private static $summary_fields = [
         'Word' => 'Word',
         'Synonym' => 'Synonym',
+        'Title' => 'Search Mapping',
     ];
 
     /**
@@ -35,6 +36,8 @@ class Synonym extends DataObject
     {
         $fields = parent::getCMSFields();
         $this->outputWarningField($fields, 'Word');
+        $fields->dataFieldByName('Word')->setDescription('A search term that produces results that the synonym below should also produce.');
+        $fields->dataFieldByName('Synonym')->setDescription('A word that means exactly or nearly the same thing as another word.');
         return $fields;
     }
 
