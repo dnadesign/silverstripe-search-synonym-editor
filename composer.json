@@ -4,7 +4,7 @@
     "license": "BSD-3-Clause",
     "require": {
         "php": "^8.1",
-        "silverstripe/recipe-solr-search": "^2.11"
+        "silverstripe/recipe-solr-search": "^2.11 || ^3.0"
     },
     "extra": {
         "installer-name": "silverstripe-search-synonym-editor"
